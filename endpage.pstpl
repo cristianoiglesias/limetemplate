@@ -1,0 +1,15 @@
+     </div>
+   
+</div>
+	<div class="container">
+      <div class="footer text-right">
+      	<!-- If you want to change the footer text -->
+	<p>&copy; <script>document.write(new Date().getFullYear())</script> LimeTemplates</p>
+	<!-- footer text end -->      
+      </div>
+    </div>
+ 	</div> <!-- / Grid: div class="row" -->
+</div> <!-- /container -->      
+
+<!-- Imagetick.js for beautiful radiobuttons and checkboxes -->   
+ <script type="text/javascript" src="{TEMPLATEURL}imagetick_lime_2.js"></script>

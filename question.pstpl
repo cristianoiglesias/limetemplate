@@ -1,0 +1,23 @@
+<div {QUESTION_ESSENTIALS} class="{QUESTION_CLASS}{QUESTION_MAN_CLASS}{QUESTION_INPUT_ERROR_CLASS}">
+
+<div class="panel panel-default">
+        <div class="panel-heading" style="questiontext">
+
+                    <span class="asterisk">{QUESTION_MANDATORY}</span>
+                    <p class="lead">{QUESTION_NUMBER} {QUESTION_CODE} </p>
+                    <p>{QUESTION_TEXT}</p>
+                    <small>{QUESTION_HELP}</small>
+                    <p>{QUESTION_MAN_MESSAGE}<p/>
+                    {QUESTION_VALID_MESSAGE}
+                    {QUESTION_FILE_VALID_MESSAGE}
+
+
+        </div>
+<div class="panel-body">
+    {ANSWER}
+  </div>
+  <div class="panel-footer" id="helptext"><span class="glyphicon glyphicon-info-sign"></span> <span class="questionhelp">{QUESTIONHELP}</span></div>
+  
+</div>
+
+</div>

@@ -1,0 +1,9 @@
+        <h1 class="text-right"><small>{WELCOME}</small></h1>
+        <h1 class="text-right">{SURVEYNAME}</h1>
+      </div> <!-- / jumbotron @ startpage -->
+  <div id="welcome-body" class="panel-body">
+  <p>{CHECKJAVASCRIPT}</p>
+   <p>{SURVEYDESCRIPTION}</p> 
+  </div>
+  <div class="panel-footer">{THEREAREXQUESTIONS}</div>
+</div> <!-- / Grid: panel panel-primary @ startpage -->

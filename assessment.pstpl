@@ -1,0 +1,11 @@
+</div> <!-- / jumbotron @ startpage -->
+ <div id="survey-header"></div>   <!-- / helper for JS -->
+<div class="panel-body">
+<div class="panel panel-default">
+  <div class="panel-heading">
+   <span class="glyphicon glyphicon-saved"></span> {ASSESSMENT_HEADING}
+  </div>
+  <div class="panel-body">
+     {ASSESSMENTS}
+  </div>
+</div>

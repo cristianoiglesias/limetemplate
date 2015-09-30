@@ -1,0 +1,12 @@
+
+        <h1 class="text-right"><small>{SURVEYNAME}</small></h1>
+       </div> <!-- / jumbotron @ startpage -->
+        <div id="survey-header"></div>   <!-- / helper for JS -->
+<div class="panel-body">
+<div class="alert alert-danger"><span class="glyphicon glyphicon-ok"></span>  {ANSWERSCLEARED}</div>
+	<ul class="nav nav-pills nav-justified">
+		<li>{RESTART}</li> 
+  		<li>{CLOSEWINDOW}</li>
+	</ul>
+  </div>
+</div> <!-- / Grid: panel panel-primary @ startpage -->

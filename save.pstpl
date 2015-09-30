@@ -1,0 +1,27 @@
+<script type='text/javascript'>
+$(document).ready(function(){
+
+   if('{SAVEERROR}' === ""){
+    document.getElementById('save-error').style.display = "none"; }                             
+
+});
+</script>
+
+        <h1 class="text-right"><small>{SURVEYNAME}</small></h1>
+      </div> <!-- / jumbotron @ startpage -->
+      <div id="survey-header"></div>   <!-- / helper for JS -->
+  <div class="panel-body">
+            <h3>{SAVEHEADING}</h3>
+
+            <div id="save-error" class="alert alert-danger">{SAVEERROR}</div>
+            <div class="text-left">
+            <p>{SAVEMESSAGE}</p>
+            <div id="save-alert">{SAVEALERT}</div>
+      
+            <div id="loadform" class="text-center">{SAVEFORM}</div>
+          </div>
+    
+    <p class="text-right">{RETURNTOSURVEY}</p> 
+  
+  </div>
+</div> <!-- / Grid: panel panel-primary @ startpage -->

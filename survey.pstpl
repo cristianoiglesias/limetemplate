@@ -1,0 +1,11 @@
+		
+		<div id="survey-header">
+			
+        <h1 class="text-right"><small>{SURVEYNAME}</small></h1>
+
+        <p class="text-right">{PERCENTCOMPLETE}</p>
+        
+    	</div>
+
+      </div>
+

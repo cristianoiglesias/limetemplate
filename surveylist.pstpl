@@ -1,0 +1,39 @@
+
+        <h1 class="text-right">{SITENAME}</h1>
+      </div> <!-- / jumbotron @ startpage -->
+      <div id="survey-header"></div>   <!-- / helper for JS -->
+  <div class="panel-body">
+    <p>{CHECKJAVASCRIPT}</p>
+    <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+
+      <div class="panel well">
+      <!-- Default panel contents -->
+       <div class="panel-heading">{SURVEYLISTHEADING}</div>
+
+  <!-- List group -->
+  <ul id="list-surveys" class="list-group">
+    {SURVEYLIST}
+  </ul>
+</div>
+
+
+ 
+      </div>
+
+    </div>
+   
+  </div>
+  <div class="panel-footer">
+    <div class="row">
+        <div class="col-md-8">{SURVEYCONTACT}</div>
+         <div class="col-md-4"><a href="http://www.limesurvey.org" target="_blank" style="float:right;"><img src="{TEMPLATEURL}poweredby.png" border="0" title="LimeSurvey Survey Software" /></a></div>
+    </div>
+</div>
+</div> <!-- / Grid: panel panel-primary @ startpage -->
+
+<!--[if lt IE 7]>
+<script language="JavaScript">
+    jQuery.ready(function(){ correctPNG(); });
+</script>
+<![endif]-->

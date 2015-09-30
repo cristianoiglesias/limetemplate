@@ -1,0 +1,23 @@
+<script type='text/javascript'>
+$(document).ready(function(){
+
+   if('{LOADERROR}' === ""){
+    document.getElementById('load-error').style.display = "none"; }                           
+
+});
+</script>
+
+        <h1 class="text-right"><small>{SURVEYNAME}</small></h1>
+      </div> <!-- / jumbotron @ startpage -->
+      <div id="survey-header"></div>   <!-- / helper for JS -->
+  <div class="panel-body">
+            <h3>{LOADHEADING}</h3>
+
+           <div id="load-error" class="alert alert-danger">{LOADERROR}</div>
+            <p>{LOADMESSAGE}</p>
+      
+            <div id="loadform">{LOADFORM}</div>
+      
+            <p class="text-right">{RETURNTOSURVEY}</p> 
+  </div>
+</div> <!-- / Grid: panel panel-primary @ startpage -->

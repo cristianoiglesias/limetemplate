@@ -1,0 +1,5 @@
+	<div class="panel-body">
+		<div class="alert alert-danger"><span class="glyphicon glyphicon-warning-sign"></span> {REGISTERERROR} {REGISTERMESSAGE1}</div>
+		   <p>{REGISTERMESSAGE2}</p> 
+		   <p>{REGISTERFORM}</p>
+ 	 </div>

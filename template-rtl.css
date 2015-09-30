@@ -1,0 +1,467 @@
+/* This CSS file is included if a Right-to-Left language is used */
+
+/* You can use the following lines for your own styles */
+.panel-primary, .panel-primary>.panel-heading, .jumbotron  {
+border-color: #558AB4 !important; /* Edit to fit your main color */
+background-color: #558AB4 !important; /* Edit to fit your main color */
+}
+
+.jumbotron h1, h1 small {
+margin-right: 25%; /* Delete this line if you don't need a space on the left at your header */
+color: white !important; /* Color of text in your header */
+}
+
+/* Let's have a look at the nessesary styles (Just edit it if you know what you do!) */
+img{
+    max-width:100% !important;
+    height:auto !important;
+    display:block;
+}
+
+.jumbotron {
+background-repeat: no-repeat;
+background-size: 30%;
+background-position-y: -10px;
+background-position-x: -10px;
+margin-bottom: 0px !important;
+}
+
+.panel-body {
+  background-color: white;
+}
+
+.footer {
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.form-control {
+  max-width: 100%;
+  width: auto !important;
+}
+
+.panel-heading p{
+  margin: 0 0 0 0;
+}
+.panel-body .page-header{
+  margin: 20px 0 20px;
+}
+
+.container .jumbotron {
+border-radius: 0px !important;
+}
+
+#main-content .container {
+padding-left: 0.4px !important;
+padding-right: 0.4px !important;
+}
+
+.logo-img{
+max-width: 95%;
+height: auto;
+margin:10px 0px 15px 0px;
+}
+
+#survey-header .ui-progressbar, #progress-wrapper .ui-widget-content  {
+height: 20px;
+margin-bottom: 20px;
+overflow: hidden;
+background-color: #f5f5f5;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#survey-header #progress-wrapper .ui-widget-header {
+border: 0px;
+float: right;
+width: 0;
+height: 100%;
+font-size: 12px;
+color: #ffffff;
+text-align: center;
+background-color: #428bca;
+-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+-webkit-transition: width 0.6s ease;
+transition: width 0.6s ease;
+}
+
+.ui-progressbar .ui-progressbar-value {
+margin: 0px;
+height: 100%;
+}
+
+#progress-wrapper .ui-widget-content {
+border: 0px;
+}
+
+#progress-wrapper #progress-post {
+color: white;
+margin: -2px 5px 0 0;
+}
+
+#progress-wrapper #progress-pre {
+color: white;
+margin: -2px 0 0 5px;
+}
+
+#survey-header .ui-widget-content {
+border: 0px;
+color: #362b36;
+
+}
+
+#progress-wrapper {
+width: auto;
+float: left;
+margin: 5px;
+}
+
+.questionhelp img{
+  display: none;
+}
+
+.no-list-style {
+  list-style: none;
+}
+
+.page-odd .panel-default>.panel-heading {
+color: #3a87ad !important;
+background-color: #d9edf7 !important;
+border-color: #bce8f1 !important;
+}
+
+.page-odd .panel-default {
+  border-color: #bce8f1 !important;
+}
+
+.error, .errormandatory, .warningjs {
+display: inline;
+padding: .2em .6em .3em;
+font-size: 75%;
+font-weight: bold;
+color: #ffffff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: .25em;
+background-color: #d9534f;
+}
+
+.good {
+display: inline;
+padding: .2em .6em .3em;
+font-size: 75%;
+font-weight: bold;
+color: #ffffff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: .25em;
+background-color: rgb(92, 184, 92); 
+}
+
+
+.asterisk {display:none}
+.mandatory .asterisk {display:inline;}
+.asterisk {
+color: #d9534f;
+font-size: 68px;
+padding-left: 3px;
+position: absolute;
+margin-top: -45px;
+margin-right: -27px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+border: none;
+background: none;
+font-weight: normal;
+color: none;
+}
+
+.ui-state-default .ui-icon {
+background-image: none;
+display: none;
+}
+
+.page-odd .ui-state-default .ui-icon {
+background-image: none;
+display: none;
+}
+
+.page-odd .ui-state-hover .ui-icon,
+.page-odd .ui-state-focus .ui-icon {
+    background-image: none;
+    display: none;   
+}
+
+#index .container .row:hover {
+  background-color: #f5f5f5 !important;
+  cursor: pointer;
+}
+
+#index .container .current:hover {
+  background-color: #428bca !important;
+  cursor: pointer;
+}
+
+#index .container h2 {
+max-width: 220px;
+margin-left: -15px;
+margin-right: -15px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+#index .container h3 {
+margin-left: -15px;
+margin-right: -15px;
+margin-top: 20px;
+}
+
+#index .container .submit {
+margin-left: -15px;
+margin-top: 10px;
+}
+
+.container .list-group-item  {
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+}
+
+.jumbotron h1 {
+margin-top: -15px;
+}
+
+.table {
+        max-width: none;     
+    }
+
+.checkboxes {
+float: right;
+margin-left: 10px;
+cursor: pointer;
+}
+
+li .radios {
+  float: right;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+td .radios {
+margin-right: auto;
+margin-left: auto;
+cursor: pointer;
+}
+
+label.answertext {
+cursor: pointer;
+}
+
+.radio-list {
+  list-style: none;
+}
+
+.languagechanger {
+  max-width: 100%;
+  width: 200px;
+}
+
+.warningjs {
+  max-width: 100%;
+}
+
+#tokenform ul {
+  list-style: none;
+}
+
+#tokenform label {
+  margin-left: 10px;
+}
+
+#tokenform .submit {
+  margin-top:  10px;
+}
+
+#loadform input {
+  margin-right: 10px;
+}
+
+#statsContainer {
+  margin: 10% !important;
+}
+
+.questions-list {
+  list-style: none;
+}
+
+ul .checkbox-list {
+  margin-right: -20px;
+}
+
+ul {
+  padding-right: 0px !important;
+}
+
+.checkbox-text-item {
+  margin-top: 5px;
+}
+
+.error {
+background-image: none;
+}
+
+li .choice {
+  height: auto !important;
+}
+
+#language {
+  margin: 15px;
+  float: left;
+  max-width: 200px;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+  color: black;
+}    
+
+.table th {
+  text-align: center;
+}
+
+.table tbody>tr>td {
+   text-align: center;
+}     
+
+/* Sticky our navbar on window scroll */
+ #index.sticky {
+    position:fixed;
+    top:10px;
+
+  }
+
+#index {
+  position: absolute;  
+}
+
+/* Handle textbox width in tables */
+table input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+  width: 100% !important;
+}
+
+/*!
+ * Slider for Bootstrap
+ *
+ * Copyright 2012 Stefan Petre
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+ 
+.ui-slider {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+
+  width: 100%;
+  margin-top: -5px;
+  top: 50%;
+  right: 0;
+}
+.ui-slider-horizontal {
+  width: 210px;
+  height: 20px;
+}
+
+.ui-slider-vertical {
+  height: 210px;
+  width: 20px;
+}
+
+.ui-slider {
+  cursor: pointer;
+  background-color: #f7f7f7;
+  background-image: -moz-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f9f9f9));
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: -o-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#fff9f9f9', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.slider-selection {
+  position: absolute;
+  background-color: #f7f7f7;
+  background-image: -moz-linear-gradient(top, #f9f9f9, #f5f5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9f9f9), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #f5f5f5);
+  background-image: -o-linear-gradient(top, #f9f9f9, #f5f5f5);
+  background-image: linear-gradient(to bottom, #f9f9f9, #f5f5f5);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff9f9f9', endColorstr='#fff5f5f5', GradientType=0);
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.help-item {
+    text-indent: -9999px;
+}
+
+.slider_callout {
+  text-indent: -9999px;
+  position: absolute;
+  margin-right: -10px;
+  margin-top: -1px;
+  width: 20px;
+  height: 20px;
+  background-color: #0e90d2;
+  background-image: -moz-linear-gradient(top, #149bdf, #0480be);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#0480be));
+  background-image: -webkit-linear-gradient(top, #149bdf, #0480be);
+  background-image: -o-linear-gradient(top, #149bdf, #0480be);
+  background-image: linear-gradient(to bottom, #149bdf, #0480be);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  opacity: 0.8;
+  border: 0px solid transparent;
+    -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.slider-handle.round {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.slider-handle.triangle {
+  background: transparent none;
+}
+
+/* Style for imagetick */
+img.checkboxes.disabled {
+  opacity:0.6;
+  filter:alpha(opacity=50);
+}                                                                                           
